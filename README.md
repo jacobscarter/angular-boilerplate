@@ -1,15 +1,31 @@
 Boilerplate for AngularJS
 =========================
 
-<h3>Instructions:</h3>
+This is a basic boilerplate to help get started with writing a project in AngularJS.
+You will need to have Node installed.
 
-`bower install jsc-angular-boilerplate`
+Redesign from old version done by [jschleining](https://github.com/jschleining)
 
-<h3>Features:</h3>
+--------------------
 
-This is a very basic boiler plate AngularJS webapp. There is one `app.js` folder that contains routes with ui-router and has two controllers.
+<h3>Start Up:</h3>
 
-<h3>Notes:</h3>
+Navigate to your local repo
 
-<p><strong>UI-Router</strong></p>
-Angular UI/UI-Router is an alternative your Angular's natvie $routeProvider.  Allowing nested views is only one of the many upgraded capabilites this Service offers.  Check them out <a href="https://github.com/angular-ui/ui-router" target="_blank">here</a>.
+Install all of the dependencies:
+  `npm install`
+
+Install a local server. This boilerplate uses https://www.npmjs.com/package/http-server:
+  `npm install http-server`
+
+Build the project:
+  `gulp build`
+
+Start the gulp watcher (optional):
+  `gulp`
+
+If you are running gulp, open a new command prompt and navigate to your repo and start the server,
+otherwise just start the server from the same command prompt:
+  `http-server ./build`
+
+In the command prompt, you should see the url that the project is serving to.
